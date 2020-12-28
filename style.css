@@ -132,6 +132,16 @@ p
     background-image: url(restaurants/menu4.jpg);
 }
 
+.img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .description
 {
     display: flex;
@@ -152,8 +162,15 @@ p
     list-style-type: none;
 }
 
+.propdev
+{
+    display: flex;
+}
+
 a
 {
     text-decoration: none;
     color: white;
 }
+
+
