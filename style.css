@@ -1,19 +1,16 @@
 @font-face
 {
-    
-    
-font-family: 'Roboto';
+    font-family: 'Roboto';
 src: url(Roboto/Roboto-Black.ttf),
     url(Roboto/Roboto-Bold.ttf),
     url(Roboto/Roboto-Light.ttf),
     url(Roboto/Roboto-Medium.ttf),
     url(Roboto/Roboto-Regular.ttf),
-    url(Roboto/Roboto-Thin.ttf);
+    url(Roboto/Roboto-Thin.ttf);    
+
 
 font-family: 'Shrikhand';
 src: url(Shrikhand/Shrikhand-Regular.ttf);
-
-
 }
 
 h1
@@ -25,6 +22,13 @@ h1
 h2
 {
     font-family: 'Roboto';
+    margin: 20px;
+}
+
+h4
+{
+    font-family: 'Shrikhand';
+    margin: 20px;
 }
 
 p
@@ -79,11 +83,6 @@ p
     
 }
 
-#fonctionnement
-{
-    margin: 20px;
-}
-
 .element
 {
     border-radius: 50%;
@@ -109,6 +108,52 @@ p
 
 .fonctionnement:hover
 {
-    color: #9356DC ;
+    color: #9356DC;
     opacity: 50%;
+}
+
+.menu1-img-1
+{
+    background-image: url(restaurants/menu1.jpg);
+}
+
+.menu2-img-1
+{
+    background-image: url(restaurants/menu2.jpg);
+}
+
+.menu3-img-1
+{
+    background-image: url(restaurants/menu3.jpg);
+}
+
+.menu4-img-1
+{
+    background-image: url(restaurants/menu4.jpg);
+}
+
+.description
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#omf_footer
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.ofooter
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
 }
