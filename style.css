@@ -1,0 +1,50 @@
+@font-face
+{
+    
+    
+font-family: 'Roboto';
+src: url(Roboto/Roboto-Black.ttf),
+    url(Roboto/Roboto-Bold.ttf),
+    url(Roboto/Roboto-Light.ttf),
+    url(Roboto/Roboto-Medium.ttf),
+    url(Roboto/Roboto-Regular.ttf),
+    url(Roboto/Roboto-Thin.ttf);
+
+font-family: 'Shrikhand';
+src: url(Shrikhand/Shrikhand-Regular.ttf);
+
+
+}
+
+h1
+{
+    font-family: 'Shrikhand';
+}
+
+h2
+{
+    font-family: 'Roboto';
+}
+
+p
+{
+    font-family: 'Roboto';
+}
+
+#choisissez:hover
+{
+    color: #9356DC ;
+    opacity: 50%;
+}
+
+#composez:hover
+{
+    color: #9356DC ;
+    opacity: 50%;
+}
+
+#degustez:hover
+{
+    color: #9356DC ;
+    opacity: 50%;
+}
