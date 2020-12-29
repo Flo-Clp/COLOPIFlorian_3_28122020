@@ -1,0 +1,154 @@
+@font-face
+{
+    font-family: 'Roboto';
+src: url(Roboto/Roboto-Black.ttf),
+    url(Roboto/Roboto-Bold.ttf),
+    url(Roboto/Roboto-Light.ttf),
+    url(Roboto/Roboto-Medium.ttf),
+    url(Roboto/Roboto-Regular.ttf),
+    url(Roboto/Roboto-Thin.ttf);    
+
+
+font-family: 'Shrikhand';
+src: url(Shrikhand/Shrikhand-Regular.ttf);
+}
+
+h1
+{
+    font-family: 'Shrikhand';
+    margin: 0;
+}
+
+h2
+{
+    font-family: 'Shrikhand';
+    margin: 20px;
+}
+
+h3
+{
+    font-family: 'Roboto';
+    margin: 20px;
+}
+
+p
+{
+    font-family: 'Roboto';
+    margin: 20px;
+}
+
+#bloc_page
+{
+    text-align: center;
+}
+
+#header-barre-haut
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.arrow
+{
+    padding-left: 20px;
+    padding-right: 60px;
+    color: black;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#menus_titre
+{
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+    bottom: 50px;
+}
+
+.heart
+{
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+#carte
+{
+    background-color: #f2f2f2;
+    position: relative;
+    bottom: 70px;
+    padding-bottom: 10px;
+}
+
+.plats_titre
+{
+    border-bottom: 2px solid #99E2D0;
+}
+
+.menus
+{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#commander
+{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 70px;
+}
+
+.button
+{
+    font-family: 'Roboto';
+    background-color: #FF79DA;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    bottom: 20px;
+}
+
+#omf_footer
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    position: relative;
+    bottom: 110px;
+}
+
+.ofooter
+{
+    list-style-type: none;
+}
+
+.propdev
+{
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
