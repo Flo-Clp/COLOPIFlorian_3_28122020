@@ -79,6 +79,11 @@ img
     font-size: 20px;
 }
 
+.heart:active
+{
+    color: #9356DC;
+}
+
 #carte
 {
     background-color: #f2f2f2;

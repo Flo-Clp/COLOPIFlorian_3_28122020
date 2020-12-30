@@ -108,8 +108,8 @@ p
 
 .fonctionnement:hover
 {
-    color: #9356DC;
-    opacity: 50%;
+    background-color: #9356DC;
+    opacity: 30%;
 }
 
 .menu1-img-1
