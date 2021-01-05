@@ -1,6 +1,13 @@
 @media screen and (min-width: 680px)
 {
-
+    .element
+    {
+    border-radius: 50%;
+    background-color: #9356DC;
+    color: white;
+    padding: 5px;
+    position: relative;
+    }
 
 
     
