@@ -18,6 +18,26 @@
     flex-direction: column;
     }
 
+    #fonction
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    #restaurant
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    
+
+    .button
+    {
+        width: 20%;
+    }
+
 
     
 

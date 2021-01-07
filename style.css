@@ -82,6 +82,8 @@ p
     background: linear-gradient(#9356DC, #FF79DA);   
     color: white;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
     padding: 20px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -241,6 +243,18 @@ a
 {
     text-decoration: none;
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+.couverts
+{
+    margin-right: 10px;
+}
+
+.help
+{
+    margin-right: 10px;
 }
 
 

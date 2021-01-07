@@ -31,6 +31,11 @@ h3
     margin: 20px;
 }
 
+h4
+{
+    font-family: 'Shrikhand';
+}
+
 p
 {
     font-family: 'Roboto';
@@ -131,6 +136,7 @@ img
 .plats_titre
 {
     border-bottom: 2px solid #99E2D0;
+    width: 15%;
 }
 
 .menus
@@ -208,8 +214,7 @@ img
 
 #commander
 {
-    align-items: center;
-    text-align: center;
+    display: flex;
     justify-content: center;
     background-color: #f2f2f2;
     padding-top: 50px;
@@ -258,4 +263,6 @@ a
 {
     text-decoration: none;
     color: white;
+    display: flex;
+    align-items: center;
 }
