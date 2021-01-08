@@ -236,6 +236,7 @@ img
     border-bottom-right-radius: 25px;
     position: relative;
     bottom: 20px;
+    justify-content: center;
 }
 
 #omf_footer

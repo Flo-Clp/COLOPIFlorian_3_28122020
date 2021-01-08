@@ -166,35 +166,41 @@ p
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: white;
-    width: 90%;
+    width: 79%;
+    padding: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
-.hearts-ctnr {
+.hearts-ctnr 
+{
     position: relative;
     width: 30px;
     height: 30px;
     display: block;
-    left: 280px;
+    left: 260px;
     bottom: 70px;
 }
 
-.hearts-ctnr:focus > .full-heart {
+.hearts-ctnr:focus > .full-heart 
+{
     transition: 0.4s all;
     transform: scale(1);  
 }
 
-.hearts-ctnr:focus > .empty-heart{
+.hearts-ctnr:focus > .empty-heart
+{
     visibility: hidden;
 }
 
-.hearts-ctnr:hover > .full-heart {
+.hearts-ctnr:hover > .full-heart 
+{
     transition: 0.4s all;
     transform: scale(1);  
 }
 
-.hearts-ctnr:hover > .empty-heart{
+.hearts-ctnr:hover > .empty-heart
+{
     visibility: hidden;
 }
 
@@ -206,7 +212,8 @@ p
     left: 0;
 }
 
-.full-heart {
+.full-heart 
+{
     z-index: 0;
     background: -webkit-linear-gradient(#9356DC, #FF79DA);
     -webkit-background-clip: text;
@@ -214,7 +221,8 @@ p
     transform: scale(0);
 }
 
-.empty-heart {
+.empty-heart 
+{
     z-index: 1;
     color: black;
 
