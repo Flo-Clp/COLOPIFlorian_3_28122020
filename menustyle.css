@@ -131,6 +131,7 @@ img
     position: relative;
     bottom: 70px;
     padding-bottom: 10px;
+    
 }
 
 .plats_titre
@@ -143,12 +144,29 @@ img
 {
     background-color: white;
     border-radius: 10px;
-    margin: 10px;
     display: block;
     color: black;
     position: relative;
     height: 70px;
     overflow: hidden;
+    margin: -30px 10px 30px 10px;
+    animation: apparition 3s forwards;
+    opacity: 0;
+}
+
+@keyframes apparition 
+{
+    0% 
+    {
+        opacity: 0;
+        margin-top: -30px;
+    }
+
+    100% 
+    {
+        opacity: 1;
+        margin-top: 30px;
+    }
 }
 
 .menus:hover .menu-left {
