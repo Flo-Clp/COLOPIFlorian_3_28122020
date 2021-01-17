@@ -34,6 +34,7 @@ h3
 h4
 {
     font-family: 'Shrikhand';
+    margin-left: 20px;
 }
 
 p
@@ -271,6 +272,13 @@ img
 .ofooter
 {
     list-style-type: none;
+}
+
+.para_footer
+{
+    margin: 0%;
+    font-family: 'Roboto';
+    margin-left: 10px;
 }
 
 .propdev

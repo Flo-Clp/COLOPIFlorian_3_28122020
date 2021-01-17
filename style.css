@@ -29,6 +29,7 @@ h2
 h3
 {
     font-family: 'Roboto';
+    margin-left: 10px;
 }
 
 h4
@@ -167,9 +168,20 @@ p
     border-bottom-right-radius: 20px;
     background-color: white;
     width: 79%;
+    height: 40px;
     padding: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+
+.titre_desc
+{
+    margin: 0%;
+}
+
+.para_desc
+{
+    margin: 0%;
 }
 
 .hearts-ctnr 
@@ -179,7 +191,7 @@ p
     height: 30px;
     display: block;
     left: 260px;
-    bottom: 70px;
+    bottom: 40px;
 }
 
 .hearts-ctnr:focus > .full-heart 
@@ -240,6 +252,11 @@ p
 .ofooter
 {
     list-style-type: none;
+}
+
+.para_footer
+{
+    margin: 0%;
 }
 
 .propdev
