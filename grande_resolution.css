@@ -48,6 +48,11 @@
     margin-left: 20px;
     }
 
+    .image
+    {
+        width: 30%;
+    }
+
     .hearts-ctnr 
     {
         left: 800px;

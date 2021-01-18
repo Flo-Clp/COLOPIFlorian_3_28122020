@@ -273,6 +273,7 @@ img
     position: relative;
     bottom: 20px;
     justify-content: center;
+    box-shadow: 1px 1px 4px silver;
 }
 
 #omf_footer
