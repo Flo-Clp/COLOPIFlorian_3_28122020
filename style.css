@@ -1,46 +1,73 @@
+@font-face
+{
+    font-family: 'Roboto-Black';
+    src: url(Roboto/Roboto-Black.ttf); 
+}
+
 
 @font-face
 {
-    font-family: 'Roboto';
-src: url(Roboto/Roboto-Black.ttf),
-    url(Roboto/Roboto-Bold.ttf),
-    url(Roboto/Roboto-Light.ttf),
-    url(Roboto/Roboto-Medium.ttf),
-    url(Roboto/Roboto-Regular.ttf),
-    url(Roboto/Roboto-Thin.ttf);    
+    font-family: 'Roboto-Bold';
+    src: url(Roboto/Roboto-Bold.ttf); 
+}
 
+@font-face
+{
+    font-family: 'Roboto-Light';
+    src: url(Roboto/Roboto-Light.ttf); 
+}
 
-font-family: 'Shrikhand';
-src: url(Shrikhand/Shrikhand-Regular.ttf);
+@font-face
+{
+    font-family: 'Roboto-Medium';
+    src: url(Roboto/Roboto-Medium.ttf); 
+}
+
+@font-face
+{
+    font-family: 'Roboto-Regular';
+    src: url(Roboto/Roboto-Regular.ttf); 
+}
+
+@font-face
+{
+    font-family: 'Roboto-Thin';
+    src: url(Roboto/Roboto-Thin.ttf); 
+}
+
+@font-face
+{
+    font-family: 'Shrikhand-Regular';
+    src: url(Shrikhand/Shrikhand-Regular.ttf); 
 }
 
 h1
 {
-    font-family: 'Shrikhand';
+    font-family: 'Shrikhand-Regular', Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 h2
 {
-    font-family: 'Roboto';
+    font-family: 'Roboto-Black', Arial, Helvetica, sans-serif;
     margin: 20px;
 }
 
 h3
 {
-    font-family: 'Roboto';
+    font-family: 'Roboto-Black', Arial, Helvetica, sans-serif;
     margin-left: 10px;
 }
 
 h4
 {
-    font-family: 'Shrikhand';
+    font-family: 'Shrikhand-Regular', Arial, Helvetica, sans-serif;
     margin: 20px;
 }
 
 p
 {
-    font-family: 'Roboto';
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     font-size: large;
 }
 
@@ -75,6 +102,11 @@ p
     margin-bottom: 50px;
     justify-content: center;
     flex-direction: column;
+}
+
+.p-boutton
+{
+    margin: 0%;
 }
 
 .button
@@ -154,16 +186,20 @@ p
     background-image: url(restaurants/menu4.jpg);
 }
 
+.menu-conteneur
+{
+    margin-bottom: 20px;
+}
+
 .img
 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 90%;
+    width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 20px;
 }
 
 .description
@@ -173,11 +209,8 @@ p
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: white;
-    width: 79%;
     height: 40px;
     padding: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
     box-shadow: 1px 1px 4px silver;
 }
 

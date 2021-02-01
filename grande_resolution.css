@@ -1,5 +1,27 @@
 @media screen and (min-width: 680px)
 {
+    .entete-image-conteneur 
+    {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+    }
+
+    .entete-image-conteneur > .image
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #menu-section 
+    {
+        margin-top: -40px;
+    }
+    
     .element
     {
     border-radius: 50%;
@@ -40,12 +62,10 @@
     {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 895px;
     height: 300px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 20px;
     }
 
     .image
