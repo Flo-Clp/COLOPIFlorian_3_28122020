@@ -1,3 +1,9 @@
+:root
+{
+    --customgrey:#f6f6f6;
+    --custompurple: #9356dc;
+}
+
 @font-face
 {
     font-family: 'Roboto-Black';
@@ -41,6 +47,11 @@
     src: url(Shrikhand/Shrikhand-Regular.ttf); 
 }
 
+body
+{
+    margin: 0%;
+}
+
 h1
 {
     font-family: 'Shrikhand-Regular', Arial, Helvetica, sans-serif;
@@ -69,6 +80,11 @@ p
 {
     font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     margin: 20px;
+}
+
+#menus_titre h2
+{
+    font-family: 'Shrikhand-Regular', Arial, Helvetica, sans-serif;
 }
 
 #bloc_page
@@ -110,10 +126,12 @@ img
 {
     display: flex;
     align-items: center;
-    background-color: #f2f2f2;
+    justify-content: space-between;
+    background-color: var(--customgrey);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     position: relative;
+    padding-right: 20px;
 }
 
 .hearts-ctnr 
@@ -149,9 +167,10 @@ img
 .heart
 {
     position: absolute;
-    font-size: 30px;
+    font-size: 23px;
     top: 0;
     left: 0;
+    
 }
 
 .full-heart 
@@ -172,7 +191,7 @@ img
 
 #carte
 {
-    background-color: #f2f2f2;
+    background-color: var(--customgrey);
     position: relative;
     padding-bottom: 10px;
     
@@ -180,8 +199,10 @@ img
 
 .plats_titre
 {
-    border-bottom: 2px solid #99E2D0;
+    border-bottom: 4px solid #99E2D0;
     width: 15%;
+    padding-bottom: 5px;
+    font-family: 'Roboto-Thin', Arial, Helvetica, sans-serif;
 }
 
 .menus
@@ -191,12 +212,24 @@ img
     display: block;
     color: black;
     position: relative;
-    height: 70px;
+    height: 50px;
     overflow: hidden;
     margin: -30px 10px 30px 10px;
     animation: apparition 3s forwards;
     opacity: 0;
+    padding: 10px 10px 10px 0;
 }
+
+.menus h3, .menus p
+{
+    margin: 10px;
+}
+
+.menus p
+{
+    font-family: 'Roboto-Thin', Arial, Helvetica, sans-serif;
+}
+
 
 @keyframes apparition 
 {
@@ -262,6 +295,7 @@ img
 .menu-right-price 
 {
     padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 .menu-checkbox 
@@ -288,7 +322,7 @@ img
 {
     display: flex;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-color: var(--customgrey);
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
@@ -301,7 +335,7 @@ img
 
 .button
 {
-    font-family: 'Roboto';
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
     background: linear-gradient(#9356DC, #FF79DA);
     color: white;
     text-decoration: none;
@@ -316,11 +350,16 @@ img
     box-shadow: 1px 1px 4px silver;
 }
 
+footer
+{
+    padding: 20px 15px 25px 15px;
+    background-color: #353535;
+}
+
 #omf_footer
 {
     display: flex;
     flex-direction: column;
-    background-color: black;
     color: white;
     position: relative;
     line-height: 25px;
@@ -329,9 +368,21 @@ img
 .ofooter
 {
     list-style-type: none;
+    padding-left: 0%;
+}
+
+footer i
+{
+    width: 20px;
 }
 
 .para_footer
+{
+    margin: 0%;
+    font-family: 'Roboto-Medium', Arial, Helvetica, sans-serif;
+}
+
+footer h4
 {
     margin: 0%;
 }
