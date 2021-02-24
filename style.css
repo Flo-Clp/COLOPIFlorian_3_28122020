@@ -463,7 +463,8 @@ a
     }
   }
 
-  @keyframes disappear {
+  @keyframes disappear 
+  {
     0% {
         transform: scale(1);
       }
