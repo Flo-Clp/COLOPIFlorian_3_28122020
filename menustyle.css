@@ -258,6 +258,19 @@ img
     right: 0;
 }
 
+.menus:hover .menu-checkbox-icon {
+    animation: rotate 1s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .menu-left 
 {
     width: calc(100% - 35px);
